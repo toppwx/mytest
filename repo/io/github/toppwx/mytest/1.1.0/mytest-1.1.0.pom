@@ -6,24 +6,36 @@
 
     <groupId>io.github.toppwx</groupId>
     <artifactId>mytest</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
+
     <packaging>jar</packaging>
+
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
     </properties>
 
+    <name>${project.groupId}:${project.artifactId}</name>
 
-    <name>mytest</name>
     <description>
         测试框架
     </description>
-    <url>https://github.com/toppwx/mytest.git</url>
+    <url>https://github.com/toppwx/mytest</url>
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+
+    <developers>
+        <developer>
+            <name>PWX</name>
+            <email>xwp0ziue@163.com</email>
+
+        </developer>
+    </developers>
+
 
 
     <distributionManagement>
@@ -33,7 +45,7 @@
 <!--        </snapshotRepository>-->
 <!--        <repository>-->
 <!--            <id>ossrh</id>-->
-<!--            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url>-->
 <!--        </repository>-->
 
                 <repository>
